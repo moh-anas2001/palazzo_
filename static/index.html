@@ -1,5 +1,3 @@
-{% load static %}
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,8 +11,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  {% comment %} <link href="{% static 'assets/img/favicon.png'%}" rel="icon"> {% endcomment %}
-  <link href="{% static 'assets/img/apple-touch-icon.png'%}" rel="apple-touch-icon">
+  <!--  <link href="assets/img/favicon.png" rel="icon">  -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,24 +20,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css'%}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/fontawesome-free/css/all.min.css'%}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/aos/aos.css'%}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css'%}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css'%}" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Template Main CSS File -->
-  <link href="{% static 'assets/css/main.css'%}" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: UpConstruction
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -48,9 +40,9 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="{% url 'index' %}" class="logo d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="{% static 'assets/img/palazzo-logo.png'%}" alt="">
+        <img src="assets/img/palazzo-logo.png" alt="">
         <!-- <h1>UpConstruction<span>.</span></h1> -->
       </a>
 
@@ -58,10 +50,10 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="{% url 'index' %}" class="active">Home</a></li>
-          <li><a href="{% url 'about' %}">About</a></li>
-          <li><a href="{% url 'services' %}">Services</a></li>
-          <li><a href="{% url 'projects' %}">Projects</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <!-- <li><a href="blog.html">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
@@ -80,7 +72,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="{% url 'contact' %}">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -96,13 +88,13 @@
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <h2 data-aos="fade-down"><span>Palazzo General Contracting LLC</span></h2>
-            {% comment %} <p data-aos="fade-up">Palazzo General Contracting L.L.C is a trusted general
-               contractor with a proven track record of excellence. They combine experience, expertise,
+            <!--  <p data-aos="fade-up">Palazzo General Contracting L.L.C is a trusted general -->
+               <!-- contractor with a proven track record of excellence. They combine experience, expertise,
                 and customer satisfaction to ensure the successful completion of every project.
-            </p> {% endcomment %}
+            </p>  -->
           </div>
             <div class="text-center">
-              <a data-aos="fade-up" data-aos-delay="200" href="{% url 'about' %}" class="btn-get-started">Get Started</a>
+              <a data-aos="fade-up" data-aos-delay="200" href="about.html" class="btn-get-started">Get Started</a>
             </div>
         </div>
       </div>
@@ -110,11 +102,11 @@
 
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-      <div class="carousel-item active" style="background-image: url({% static 'assets/img/hero-carousel/int.png'%})"></div>
-      <div class="carousel-item" style="background-image: url({% static 'assets/img/hero-carousel/const.png'%})"></div>
-      <div class="carousel-item" style="background-image: url({% static 'assets/img/hero-carousel/hero-carousel-6.jpg'%})"></div>
-      <div class="carousel-item" style="background-image: url({% static 'assets/img/hero-carousel/int2.png'%})"></div>
-      <div class="carousel-item" style="background-image: url({% static 'assets/img/hero-carousel/hero-carousel-5.png'%})"></div>
+      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/int.png)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/const.png)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-6.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/int2.png)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.png)"></div>
 
       <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -211,7 +203,7 @@
                 </div>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="{% static 'assets/img/why choose us.....jpg'%}" alt="" class="img-fluid">
+                <img src="assets/img/why choose us.....jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -247,7 +239,7 @@
             <div class="icon">
               <i class="fa-solid fa-mountain-city"></i>
             </div>
-            <a href="{% url 'services' %}#alt-services-2"><h3>General Construction</h3></a>
+            <a href="services.html#alt-services-2"><h3>General Construction</h3></a>
             <p>Palazzo offers a wide range of construction services, which may include site preparation,
                foundation work, structural framing, MEP installations, finishing work, landscaping, and more.</p>
             <!-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
@@ -259,7 +251,7 @@
             <div class="icon">
               <i class="fa-solid fa-arrow-up-from-ground-water"></i>
             </div>
-            <a href="{% url 'services' %}#alt-services"><h3>Interior design & Fitout</h3></a>
+            <a href="services.html#alt-services"><h3>Interior design & Fitout</h3></a>
             <p>Interior Design should reflect the personality and preferences of the people who inhabit
               the space. At Palazzo, we understand the importance of creating a dream home or a comfortable space
               that reflects the owners' desires.</p>
@@ -272,7 +264,7 @@
             <div class="icon">
               <i class="fa-solid fa-compass-drafting"></i>
             </div>
-            <a href="{% url 'services' %}#alt-services-3"><h3>MEP Services</h3></a>
+            <a href="services.html#alt-services-3"><h3>MEP Services</h3></a>
             <p>MEP engineering is a growing field as more and more emphasis is placed on energy
                efficiency and sustainability in the built environment. There are many opportunities
                 for MEP engineers to positively impact the world</p>
@@ -297,7 +289,7 @@
   <div class="container background-image" data-aos="fade-up">
 
     <div class="row justify-content ">
-      <div class="col-lg-6 img-bg" style="background-image: url({% static 'assets/img/demo2.png'%});" data-aos="zoom-in" data-aos-delay="100"></div>
+      <div class="col-lg-6 img-bg" style="background-image: url(assets/img/demo2.png);" data-aos="zoom-in" data-aos-delay="100"></div>
 
       <div class="col-lg-5 d-flex flex-column justify-content-center">
         <h3>Our Company Culture</h3>
@@ -353,30 +345,30 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
         <div class="card">
-          <img src="{% static 'assets\img\projects_index_3.jpg.png'%}" class="card-img-top" alt="...">
+          <img src="assets\img\projects_index_3.jpg.png" class="card-img-top" alt="...">
 
           <div class="card-body">
-            <h5 class="card-title"><a href="{% url 'projects' %}">All Projects</a></h5>
+            <h5 class="card-title"><a href="projects.html">All Projects</a></h5>
 
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
         <div class="card">
-          <img src="{% static 'assets\img\projects_index_2.png'%}" class="card-img-top" alt="...">
+          <img src="assets\img\projects_index_2.png" class="card-img-top" alt="...">
 
           <div class="card-body">
-            <h5 class="card-title"><a href="{% url 'civilprojects' %}#filter-civilworks">Civil Projects</a></h5>
+            <h5 class="card-title"><a href="civilprojects.html#filter-civilworks">Civil Projects</a></h5>
 
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
         <div class="card">
-          <img src="{% static 'assets\img\projects_index_1.png'%}" class="card-img-top" alt="...">
+          <img src="assets\img\projects_index_1.png" class="card-img-top" alt="...">
 
           <div class="card-body">
-            <h5 class="card-title"><a href="{% url 'interiorprojects' %}#filter-interiorworks'">Interior Projects</a></h5>
+            <h5 class="card-title"><a href="interiorprojects.html#filter-interiorworks'">Interior Projects</a></h5>
 
           </div>
         </div>
@@ -393,7 +385,7 @@
       <div class="container">
         <div class="row justify-content-center">
             <div class="text-center">
-              <a data-aos="fade-up" data-aos-delay="200" href="https://drive.google.com/file/d/1XtCyFfQNb8tyr44Dy0K-OrrT8fEfXvjN/view?usp=drive_link" class="btn-get-started" style="">Download Company Profile</a>
+              <a data-aos="fade-up" data-aos-delay="200" href="https://drive.google.com/file/d/1XtCyFfQNb8tyr44Dy0K-OrrT8fEfXvjN/view?usp=drive_link" class="btn-get-started" >Download Company Profile</a>
             </div>
         </div>
       </div>
@@ -435,11 +427,11 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Useful Links</h4>
                     <ul>
-                      <li><a href="{% url 'index' %}">Home</a></li>
-                      <li><a href="{% url 'about' %}">About</a></li>
-                      <li><a href="{% url 'services' %}">Services</a></li>
-                      <li><a href="{% url 'projects' %}">Projects</a></li>
-                      <li><a href="{% url 'contact' %}">Contact</a></li>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="projects.html">Projects</a></li>
+                      <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
 
@@ -448,9 +440,9 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Our Services</h4>
                     <ul>
-                        <li><a href="{% url 'services' %}#alt-services-2">General Construction</a></li>
-                        <li><a href="{% url 'services' %}#alt-services">Interior Design & Fitout</a></li>
-                        <li><a href="{% url 'services' %}#alt-services-3">MEP Services</a></li>
+                        <li><a href="services.html#alt-services-2">General Construction</a></li>
+                        <li><a href="services.html#alt-services">Interior Design & Fitout</a></li>
+                        <li><a href="services.html#alt-services-3">MEP Services</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer-links">
@@ -486,19 +478,19 @@
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  {% comment %} <div id="preloader"></div> {% endcomment %}
+  <!--  <div id="preloader"></div>  -->
 
   <!-- Vendor JS Files -->
-  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
-  <script src="{% static 'assets/vendor/aos/aos.js'%}"></script>
-  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js'%}"></script>
-  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js'%}"></script>
-  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js'%}"></script>
-  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js'%}"></script>
-  <script src="{% static 'assets/vendor/php-email-form/validate.js'%}"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="{% static 'assets/js/main.js'%}"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
