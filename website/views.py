@@ -16,21 +16,21 @@ def services(request):
   return render(request, 'services.html')
 
 def projects(request):
-  
+
   projs = Project_data.objects.all()
-  
+
   return render(request, 'projects.html', {'projs': projs})
 
 def civilprojects(request):
-  
+
   projs = Project_data.objects.all()
-  
+
   return render(request, 'civilprojects.html', {'projs': projs})
 
 def interiorprojects(request):
-  
+
   projs = Project_data.objects.all()
-  
+
   return render(request, 'interiorprojects.html', {'projs': projs})
 
 def contact(request):
@@ -47,7 +47,7 @@ def contact(request):
     contact.subject=subject
     contact.message=message
     contact.save()
-    
-    send_mail(sub,mes,"muhammedasifsalim2000@gmail.com",["alfirahim2000@gmail.com"])
-    
+
+    send_mail(sub,mes,"palazzogeneralweb@gmail.com",["palazzogeneralweb@gmail.com"])
+
   return render(request, 'contact.html')

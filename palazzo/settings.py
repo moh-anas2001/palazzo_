@@ -27,14 +27,14 @@ SECRET_KEY = 'django-insecure-%ha2na6f!=2$r)a8bu!nlu!$kxq##+l#7jkhntg2+#816gwtos
 DEBUG = True
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'muhammedasifsalim2000@gmail.com'
-EMAIL_HOST_PASSWORD = 'pwntlfwbknruxyam'
+EMAIL_HOST_USER = 'palazzogeneralweb@gmail.com'
+EMAIL_HOST_PASSWORD = 'kpyyephwqxvuozkl'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-DEFAULT_FROM_EMAIL = 'muhammedasifsalim2000@gmail.com'
-ALLOWED_HOSTS = []
+DEFAULT_FROM_EMAIL = 'palazzogeneralweb@gmail.com'
+ALLOWED_HOSTS = ['www.palazzouae.com']
 
 
 # Application definition
@@ -64,7 +64,7 @@ ROOT_URLCONF = 'palazzo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [BASE_DIR/'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -125,11 +125,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+STATIC_ROOT = BASE_DIR/'static'
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS=[
-    os.path.join(BASE_DIR,'static')
-]
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

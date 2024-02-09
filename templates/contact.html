@@ -94,7 +94,7 @@
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
         <h2>Contact</h2>
-        
+
 
       </div>
     </div><!-- End Breadcrumbs -->
@@ -105,10 +105,10 @@
 
         <div class="row gy-4">
           <div class="col-lg-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center" style="background-color: white;">
+            <div class="info-item-1  d-flex flex-column justify-content-center align-items-center" style="background-color: white;">
               <i class="bi bi-map"></i>
               <h3>Address</h3>
-              <p>Mezzanine Floor Office no:3          Al Nahyan, Abu Dhabi, United Arab Emirates</p>
+              <a href="https://maps.app.goo.gl/irKZ65cP6DY77sFF9">Mezzanine Floor Office no:3 Mohamed Amanalla Husain Khori And His Children Building,<br> Al Nahyan, Abu Dhabi, United Arab Emirates</a>
             </div>
           </div><!-- End Info Item -->
 
@@ -116,16 +116,16 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center" style="background-color: white;">
               <i class="bi bi-envelope"></i>
               <h3>Email Us</h3>
-              <p>info@palazzouae.com</p>
+              <a href="mailto:info@palazzouae.com">info@palazzouae.com</a>
             </div>
           </div><!-- End Info Item -->
 
           <div class="col-lg-3 col-md-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center" style="background-color: white;">
+            <div class="info-item-3  d-flex flex-column justify-content-center align-items-center" style="background-color: white;">
               <i class="bi bi-telephone"></i>
               <h3>Call Us</h3>
-              <p>026736310 / 0529933610 / 0503290920</p>
-              
+              <p><a href="tel:026736310">026736310</a> / <a href="tel:0529933610">0529933610</a> / <a href="tel:0503290920">0503290920</a></p>
+
             </div>
           </div><!-- End Info Item -->
 
@@ -134,15 +134,15 @@
         <div class="row gy-4 mt-1">
 
           <div class="col-lg-6 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3631.7802488035936!2d54.38589477535804!3d24.458408378193962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDI3JzMwLjMiTiA1NMKwMjMnMTguNSJF!5e0!3m2!1sen!2sin!4v1692163686327!5m2!1sen!2sin" width="635" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3631.780248174896!2d54.3858948!3d24.4584084!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e6881324006b1%3A0x318402b018d0ade2!2sF95P%2B8MH%20-%20Al%20Nahyan%20-%20Zone%201%20-%20Abu%20Dhabi%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1696992750496!5m2!1sen!2sin" width="635" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div><!-- End Google Maps -->
 
           <div class="col-lg-6">
             <form id="contact-form" method="POST" action="/contact" class="contact-form" onsubmit="sendEmail(); reset(); return false;">
-                        
+
               {% csrf_token %}
-              
-              
+
+
               <div class="row gy-4">
                 <div class="col-lg-6 form-group">
                   <input name="name" class="form-control" placeholder="Name *" type="text" id="name">
@@ -183,20 +183,20 @@
                     <h4 style="font-size: 19px;">Address</h4>
                     <ul class="list-unstyled footer-link">
                       <li class="d-flex">
-                        <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>              <br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
+                        <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>Mohamed Amanalla Husain<br>Khouri And his Children Building,<br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
                       </li>
                       <li class="d-flex" style="padding-top:0.5cm;">
                         <span class="me-0"></span><span class="text-white">Mob&nbsp;:&nbsp;&nbsp;+971529933610<br>Tel&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;+97126736310</span>
                         </li>
                         <li class="d-flex" style="padding-top:0.5cm;">
                           <span class="me-0">Email&nbsp;:&nbsp;</span><span class="text-white">info@palazzouae.com</span>
-                    
+
                           </li>
                     </ul>
                   </div>
-  
-  
-  
+
+
+
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Useful Links</h4>
                     <ul>
@@ -206,10 +206,10 @@
                       <li><a href="{% url 'projects' %}">Projects</a></li>
                       <li><a href="{% url 'contact' %}">Contact</a></li>
                     </ul>
-                </div> 
-  
-      
-  
+                </div>
+
+
+
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Our Services</h4>
                     <ul>
@@ -220,15 +220,15 @@
                 </div>
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Our Social Network</h4>
-                    
+
                     <div class="social-links mt-3">
                       <ul class="list-unstyled footer-link d-flex footer-social">
                       <li><a href="#"><span class="fa fa-facebook"></span></a></li>
                       <li><a href="https://instagram.com/palazzo.general.contracting?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a></li>
-                      <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                      <li><a href="#"><span class="fa fa-whatsapp"></span></a></li>
-                      <!-- <li><a href="#"><span class="fa fa-youtube"></span></a></li> -->
-                      <!-- <li><a href="#"><span class="fa fa-twitter"></span></a></li> -->
+                      <li><a href="https://www.linkedin.com/in/palazzo-general-contracting-17218a291/"><span class="fa fa-linkedin"></span></a></li>
+                      <li><a href="https://wa.me/+971529933610"><span class="fa fa-whatsapp"></span></a></li>
+                      <li><a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a></li>
+
                       </ul>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
         <div class="copyright">
             &copy; Copyright <strong>Dacentric technologies</strong>.All Rights Reserved
         </div>
-        
+
     </div>
     </footer>
 
@@ -291,12 +291,12 @@
             <!-- </ul>
           </div>End footer links column  -->
 
-         
+
 
         <!-- </div>
       </div>
     </div>
- 
+
     <div class="footer-legal text-center position-relative">
       <div class="container">
         <div class="copyright">
@@ -312,7 +312,7 @@
       </div>
     </div>
 
-  </footer> --> 
+  </footer> -->
   <!-- End Footer -->
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
