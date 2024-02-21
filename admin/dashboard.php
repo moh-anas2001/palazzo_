@@ -2,10 +2,9 @@
 session_start();
 // Check if the user is not authenticated (not logged in)
 if (!isset($_SESSION['id'])) {
-    echo'<script>alert("Welcome Back");</script>';
+    echo '<script>alert("Welcome Back");</script>';
     header('Location: index.php');
     exit();
-    
 }
 
 // Check the user's role
@@ -27,10 +26,8 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-        content="">
-    <meta name="description"
-        content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <meta name="robots" content="noindex,nofollow">
     <title>Qplus Admin</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
@@ -44,7 +41,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
 </head>
 
 <body>
-    
+
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->
@@ -57,8 +54,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
-        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
@@ -87,14 +83,13 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
-                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
                 <!-- ============================================================== -->
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
-                   
+
                     <!-- ============================================================== -->
                     <!-- Right side toggle and nav items -->
                     <!-- ============================================================== -->
@@ -114,7 +109,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
-                         <li class="dropdown">
+                        <li class="dropdown">
                             <a class="profile-pic" href="#">
                                 <?php
                                 // Include the database configuration
@@ -164,64 +159,56 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                     <ul id="sidebarnav">
                         <!-- User Profile-->
                         <li class="sidebar-item pt-2">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="far fa-clock" aria-hidden="true"></i>
                                 <span class="hide-menu">Dashboard</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php" aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <span class="hide-menu">Profile</span>
                             </a>
                         </li>
-                       <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php"
-                                aria-expanded="false">
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php" aria-expanded="false">
                                 <i class="far fa-lightbulb" aria-hidden="true"></i>
                                 <span class="hide-menu">New Projects</span>
                             </a>
                         </li>
-                        
+
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_jobs.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_jobs.php" aria-expanded="false">
                                 <i class="fa fa-globe" aria-hidden="true"></i>
                                 <span class="hide-menu">New Jobs</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="stats.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="stats.php" aria-expanded="false">
                                 <i class="fas fa-chart-line" aria-hidden="true"></i>
                                 <span class="hide-menu">Update Statistics</span>
                             </a>
                         </li>
-                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_testimonial.php"
-                                aria-expanded="false">
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_testimonial.php" aria-expanded="false">
                                 <i class="fa fa-comment" aria-hidden="true"></i>
                                 <span class="hide-menu">New Testimonials</span>
                             </a>
                         </li>
-                         
+
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_logo.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_logo.php" aria-expanded="false">
                                 <i class="fas fa-image" aria-hidden="true"></i>
                                 <span class="hide-menu">Add Logo</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_blogs.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_blogs.php" aria-expanded="false">
                                 <i class="fas fa-upload" aria-hidden="true"></i>
                                 <span class="hide-menu">Add Blogs</span>
                             </a>
                         </li>
-                        
+
                     </ul>
 
                 </nav>
@@ -270,8 +257,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                             <h3 class="box-title">Total Visit</h3>
                             <ul class="list-inline two-part d-flex align-items-center mb-0">
                                 <li>
-                                    <div id="sparklinedash"><canvas width="67" height="30"
-                                            style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
+                                    <div id="sparklinedash"><canvas width="67" height="30" style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
                                     </div>
                                 </li>
                                 <li class="ms-auto"><span class="counter text-success">659</span></li>
@@ -283,8 +269,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                             <h3 class="box-title">Total Page Views</h3>
                             <ul class="list-inline two-part d-flex align-items-center mb-0">
                                 <li>
-                                    <div id="sparklinedash2"><canvas width="67" height="30"
-                                            style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
+                                    <div id="sparklinedash2"><canvas width="67" height="30" style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
                                     </div>
                                 </li>
                                 <li class="ms-auto"><span class="counter text-purple">869</span></li>
@@ -296,8 +281,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                             <h3 class="box-title">Unique Visitor</h3>
                             <ul class="list-inline two-part d-flex align-items-center mb-0">
                                 <li>
-                                    <div id="sparklinedash3"><canvas width="67" height="30"
-                                            style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
+                                    <div id="sparklinedash3"><canvas width="67" height="30" style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas>
                                     </div>
                                 </li>
                                 <li class="ms-auto"><span class="counter text-info">911</span>
@@ -324,8 +308,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                 </ul>
                             </div>
                             <div id="ct-visits" style="height: 405px;">
-                                <div class="chartist-tooltip" style="top: -17px; left: -12px;"><span
-                                        class="chartist-tooltip-value">6</span>
+                                <div class="chartist-tooltip" style="top: -17px; left: -12px;"><span class="chartist-tooltip-value">6</span>
                                 </div>
                             </div>
                         </div>
@@ -434,8 +417,8 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                         <h5 class="font-medium">James Anderson</h5>
                                         <span class="mb-3 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry.It has survived not only five centuries. </span>
                                         <div class="comment-footer d-md-flex align-items-center">
-                                             <span class="badge bg-primary rounded">Pending</span>
-                                             
+                                            <span class="badge bg-primary rounded">Pending</span>
+
                                             <div class="text-muted fs-2 ms-auto mt-2 mt-md-0">April 14, 2021</div>
                                         </div>
                                     </div>
@@ -449,7 +432,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                         <div class="comment-footer d-md-flex align-items-center">
 
                                             <span class="badge bg-success rounded">Approved</span>
-                                            
+
                                             <div class="text-muted fs-2 ms-auto mt-2 mt-md-0">April 14, 2021</div>
                                         </div>
                                     </div>
@@ -463,7 +446,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                         <div class="comment-footer d-md-flex align-items-center">
 
                                             <span class="badge rounded bg-danger">Rejected</span>
-                                            
+
                                             <div class="text-muted fs-2 ms-auto mt-2 mt-md-0">April 14, 2021</div>
                                         </div>
                                     </div>
@@ -487,11 +470,9 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/varun.jpg" alt="user-img" class="img-circle">
+                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/varun.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
-                                                <span class="text-dark">Varun Dhavan <small
-                                                        class="d-block text-success d-block">online</small></span>
+                                                <span class="text-dark">Varun Dhavan <small class="d-block text-success d-block">online</small></span>
                                             </div>
                                         </a>
                                     </li>
@@ -504,8 +485,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/genu.jpg" alt="user-img" class="img-circle">
+                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/genu.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
                                                 <span class="text-dark">Genelia
                                                     Deshmukh <small class="d-block text-warning">Away</small></span>
@@ -521,8 +501,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/ritesh.jpg" alt="user-img" class="img-circle">
+                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/ritesh.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
                                                 <span class="text-dark">Ritesh
                                                     Deshmukh <small class="d-block text-danger">Busy</small></span>
@@ -538,8 +517,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/arijit.jpg" alt="user-img" class="img-circle">
+                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/arijit.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
                                                 <span class="text-dark">Arijit
                                                     Sinh <small class="d-block text-muted">Offline</small></span>
@@ -555,9 +533,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/govinda.jpg" alt="user-img"
-                                                class="img-circle">
+                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/govinda.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
                                                 <span class="text-dark">Govinda
                                                     Star <small class="d-block text-success">online</small></span>
@@ -573,8 +549,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/hritik.jpg" alt="user-img" class="img-circle">
+                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img src="plugins/images/users/hritik.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
                                                 <span class="text-dark">John
                                                     Abraham<small class="d-block text-success">online</small></span>
@@ -594,8 +569,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-             <footer class="footer text-center"> 2020 © Qplus Technical Service LLC -  <a
-                    href="https://www.qplus-ts.com">www.qplus-ts.com</a>
+            <footer class="footer text-center"> 2020 © Qplus Technical Service LLC - <a href="https://www.qplus-ts.com">www.qplus-ts.com</a>
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
