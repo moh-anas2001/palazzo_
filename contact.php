@@ -142,10 +142,10 @@
                 </div>
               </div>
               <div class="form-group">
-                  <input name="subject" class="form-control" placeholder="Subject *" type="text" id="subject">
+                <input name="subject" class="form-control" placeholder="Subject *" type="text" id="subject">
               </div>
               <div class="form-group">
-                  <textarea placeholder="Message *" name="message" class="form-control" id="message"></textarea>
+                <textarea placeholder="Message *" name="message" class="form-control" id="message"></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -154,7 +154,7 @@
               </div>
               <div class="text-center"><button type="submit"> Send</button></div>
               <!-- <p class="form-message"></p> -->
-          </form>
+            </form>
           </div><!-- End Contact Form -->
 
         </div>
@@ -167,72 +167,72 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" style="margin-top: 50px;">
     <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 footer-content">
-                    <h4 style="font-size: 19px;">Address</h4>
-                    <ul class="list-unstyled footer-link">
-                      <li class="d-flex">
-                        <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>Mohamed Amanalla Husain<br>Khouri And his Children Building,<br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
-                      </li>
-                      <li class="d-flex" style="padding-top:0.5cm;">
-                        <span class="me-0"></span><span class="text-white">Mob&nbsp;:&nbsp;&nbsp;+971529933610<br>Tel&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;+97126736310</span>
-                        </li>
-                        <li class="d-flex" style="padding-top:0.5cm;">
-                          <span class="me-0">Email&nbsp;:&nbsp;</span><span class="text-white">info@palazzouae.com</span>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-content">
+            <h4 style="font-size: 19px;">Address</h4>
+            <ul class="list-unstyled footer-link">
+              <li class="d-flex">
+                <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>Mohamed Amanalla Husain<br>Khouri And his Children Building,<br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
+              </li>
+              <li class="d-flex" style="padding-top:0.5cm;">
+                <span class="me-0"></span><span class="text-white">Mob&nbsp;:&nbsp;&nbsp;+971529933610<br>Tel&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;+97126736310</span>
+              </li>
+              <li class="d-flex" style="padding-top:0.5cm;">
+                <span class="me-0">Email&nbsp;:&nbsp;</span><span class="text-white">info@palazzouae.com</span>
 
-                          </li>
-                    </ul>
-                  </div>
-
-
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Useful Links</h4>
-                    <ul>
-                      <li><a href="index.php">Home</a></li>
-                      <li><a href="about.php">About</a></li>
-                      <li><a href="services.php">Services</a></li>
-                      <li><a href="projects.php">Projects</a></li>
-                      <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                </div>
+              </li>
+            </ul>
+          </div>
 
 
 
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Our Services</h4>
-                    <ul>
-                      <li><a href="services.php#alt-services-2">General Construction</a></li>
-                      <li><a href="services.php#alt-services">Interior Design & Fitout</a></li>
-                      <li><a href="services.php#alt-services-3">MEP Services</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Our Social Network</h4>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 style="font-size: 19px;">Useful Links</h4>
+            <ul>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="services.php">Services</a></li>
+              <li><a href="projects.php">Projects</a></li>
+              <li><a href="contact.php">Contact</a></li>
+            </ul>
+          </div>
 
-                    <div class="social-links mt-3">
-                      <ul class="list-unstyled footer-link d-flex footer-social">
-                      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                      <li><a href="https://instagram.com/palazzo.general.contracting?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a></li>
-                      <li><a href="https://www.linkedin.com/in/palazzo-general-contracting-17218a291/"><span class="fa fa-linkedin"></span></a></li>
-                      <li><a href="https://wa.me/+971529933610"><span class="fa fa-whatsapp"></span></a></li>
-                      <li><a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a></li>
 
-                      </ul>
-                    </div>
-                </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 style="font-size: 19px;">Our Services</h4>
+            <ul>
+              <li><a href="services.php#alt-services-2">General Construction</a></li>
+              <li><a href="services.php#alt-services">Interior Design & Fitout</a></li>
+              <li><a href="services.php#alt-services-3">MEP Services</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 style="font-size: 19px;">Our Social Network</h4>
+
+            <div class="social-links mt-3">
+              <ul class="list-unstyled footer-link d-flex footer-social">
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="https://instagram.com/palazzo.general.contracting?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/palazzo-general-contracting-17218a291/"><span class="fa fa-linkedin"></span></a></li>
+                <li><a href="https://wa.me/+971529933610"><span class="fa fa-whatsapp"></span></a></li>
+                <li><a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a></li>
+
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <hr>
     <div class="container py-4">
-        <div class="copyright">
-            &copy; Copyright <strong>Dacentric technologies</strong>.All Rights Reserved
-        </div>
+      <div class="copyright">
+        &copy; Copyright <strong><a href="https://www.dacentrictechnologies.com/" target="_blank">DaCentric Technologies</strong></a> All Rights Reserved
+      </div>
 
     </div>
-    </footer>
+  </footer>
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -250,46 +250,45 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
- 
     function Send() {
 
-var senderEmail = "info@palazzouae.com";
-var name = document.getElementById("name").value;
-var email = document.getElementById("email").value;
-var sub = document.getElementById("subject").value;
-var mess = document.getElementById("message").value;
+      var senderEmail = "info@palazzouae.com";
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var sub = document.getElementById("subject").value;
+      var mess = document.getElementById("message").value;
 
 
-var body = "Name: " + name + "<br/> Email: " + email + "<br/> Subject: " + sub + "<br/> Message: " + mess;
+      var body = "Name: " + name + "<br/> Email: " + email + "<br/> Subject: " + sub + "<br/> Message: " + mess;
 
-// console.log(body);
-Email.send({
+      // console.log(body);
+      Email.send({
 
-    SecureToken: "",
-    To: senderEmail,
-    From: senderEmail,
-    Subject: sub,
-    Body: body
-}).then(
-    message => {
-        if (message == 'OK') {
+        SecureToken: "",
+        To: senderEmail,
+        From: senderEmail,
+        Subject: sub,
+        Body: body
+      }).then(
+        message => {
+          if (message == 'OK') {
 
             Swal.fire(
-                'Recieved',
-                'Our team will contact you soon',
-                'success'
+              'Recieved',
+              'Our team will contact you soon',
+              'success'
             )
-        } else {
+          } else {
 
             Swal.fire("Something went Wrong", "Your Data is not Received", "error");
+          }
         }
+      );
+
+
+
     }
-);
-
-
-
-}
-</script>
+  </script>
 
 
 </body>

@@ -137,8 +137,8 @@
               </div>
               <h3>MEP Services</h3>
               <p>MEP services play a crucial role in the successful implementation of
-                 a construction project. Ensure effective coordination between the MEP
-                 design team, architects, structural engineers and contractors to integrate all mechanical, electrical and plumbing systems seamlessly into the overall design.
+                a construction project. Ensure effective coordination between the MEP
+                design team, architects, structural engineers and contractors to integrate all mechanical, electrical and plumbing systems seamlessly into the overall design.
               </p>
               <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
             </div>
@@ -161,7 +161,7 @@
       <div class="container background-image" data-aos="fade-up">
 
         <div class="row justify-content-between">
-          <div class="col-lg-5 d-flex flex-column justify-content-center" >
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
             <h3>General Construction</h3>
             <p>Palazzo offers a wide range of construction services, which may include site preparation, foundation work, structural framing, MEP installations, finishing work, landscaping, and more.We had chance to provide many projects in:
               Madinat Al Riyadh / Shamkhah / Banyas / Shakbout</p>
@@ -200,7 +200,7 @@
             </div><!-- End Icon Box -->
           </div>
 
-          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/Generalconstruction.jpg);"  data-aos="zoom-in" data-aos-delay="100"></div>
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/Generalconstruction.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
         </div>
 
       </div>
@@ -218,8 +218,8 @@
             <p>Interior design should reflect the personality and preferences of the people who inhabit the space.
               At Palazzo, we understand the importance ofcreating a dream home or a comfortable spacethat reflects the owners desires.
               We had chance to provide many projects in:
-Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OLD / Madinat Mohammad Bin Zaid / Abu Dhabi Center Corniche Area / Al Slaa. /Airport Road / Alrahba .
-</p>
+              Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OLD / Madinat Mohammad Bin Zaid / Abu Dhabi Center Corniche Area / Al Slaa. /Airport Road / Alrahba .
+            </p>
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
               <i class="bi bi-easel flex-shrink-0"></i>
@@ -265,7 +265,7 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
         <div class="row justify-content-between">
           <div class="col-lg-5 d-flex flex-column justify-content-center">
             <h3>MEP Services</h3>
-            <p>MEP  department included all work of mechanical , electrical , plumping and
+            <p>MEP department included all work of mechanical , electrical , plumping and
               maintenance work , we had chance to provide many projects:
               AlrahbaFarms-74 Electrical Room For Mr. Abdulla Nasser Almansoori/
               Alsaadiyat Joumira Hotel MEP Maintenance / Rotana Trade Center MEP Maintenance /
@@ -341,9 +341,9 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
                 </div>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -360,8 +360,8 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
                 </div>
               </div>
             </div> -->
-            <!-- End testimonial item -->
-<!--
+    <!-- End testimonial item -->
+    <!--
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -379,9 +379,9 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
                 </div>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -398,9 +398,9 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
                 </div>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -417,9 +417,9 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
                 </div>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-          <!-- </div>
+    <!-- </div>
           <div class="swiper-pagination"></div>
         </div>
 
@@ -432,72 +432,72 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
   <!-- ======= Footer ======= -->
   <footer id="footer" style="margin-top: 50px;">
     <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 footer-content">
-                    <h4 style="font-size: 19px;">Address</h4>
-                    <ul class="list-unstyled footer-link">
-                      <li class="d-flex">
-                        <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>Mohamed Amanalla Husain<br>Khouri And his Children Building,<br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
-                      </li>
-                      <li class="d-flex" style="padding-top:0.5cm;">
-                        <span class="me-0"></span><span class="text-white">Mob&nbsp;:&nbsp;&nbsp;+971529933610<br>Tel&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;+97126736310</span>
-                        </li>
-                        <li class="d-flex" style="padding-top:0.5cm;">
-                          <span class="me-0">Email&nbsp;:&nbsp;</span><span class="text-white">info@palazzouae.com</span>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-content">
+            <h4 style="font-size: 19px;">Address</h4>
+            <ul class="list-unstyled footer-link">
+              <li class="d-flex">
+                <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>Mohamed Amanalla Husain<br>Khouri And his Children Building,<br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
+              </li>
+              <li class="d-flex" style="padding-top:0.5cm;">
+                <span class="me-0"></span><span class="text-white">Mob&nbsp;:&nbsp;&nbsp;+971529933610<br>Tel&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;+97126736310</span>
+              </li>
+              <li class="d-flex" style="padding-top:0.5cm;">
+                <span class="me-0">Email&nbsp;:&nbsp;</span><span class="text-white">info@palazzouae.com</span>
 
-                          </li>
-                    </ul>
-                  </div>
-
-
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Useful Links</h4>
-                    <ul>
-                      <li><a href="index.php">Home</a></li>
-                      <li><a href="about.php">About</a></li>
-                      <li><a href="services.php">Services</a></li>
-                      <li><a href="projects.php">Projects</a></li>
-                      <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                </div>
+              </li>
+            </ul>
+          </div>
 
 
 
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Our Services</h4>
-                    <ul>
-                      <li><a href="#alt-services-2">General Construction</a></li>
-                      <li><a href="#alt-services">Interior Design & Fitout</a></li>
-                      <li><a href="#alt-services-3">MEP Services</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Our Social Network</h4>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 style="font-size: 19px;">Useful Links</h4>
+            <ul>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="services.php">Services</a></li>
+              <li><a href="projects.php">Projects</a></li>
+              <li><a href="contact.php">Contact</a></li>
+            </ul>
+          </div>
 
-                    <div class="social-links mt-3">
-                      <ul class="list-unstyled footer-link d-flex footer-social">
-                      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                      <li><a href="https://instagram.com/palazzo.general.contracting?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a></li>
-                      <li><a href="https://www.linkedin.com/in/palazzo-general-contracting-17218a291/"><span class="fa fa-linkedin"></span></a></li>
-                      <li><a href="https://wa.me/+971529933610"><span class="fa fa-whatsapp"></span></a></li>
-                      <li><a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a></li>
 
-                      </ul>
-                    </div>
-                </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 style="font-size: 19px;">Our Services</h4>
+            <ul>
+              <li><a href="#alt-services-2">General Construction</a></li>
+              <li><a href="#alt-services">Interior Design & Fitout</a></li>
+              <li><a href="#alt-services-3">MEP Services</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 style="font-size: 19px;">Our Social Network</h4>
+
+            <div class="social-links mt-3">
+              <ul class="list-unstyled footer-link d-flex footer-social">
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="https://instagram.com/palazzo.general.contracting?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/palazzo-general-contracting-17218a291/"><span class="fa fa-linkedin"></span></a></li>
+                <li><a href="https://wa.me/+971529933610"><span class="fa fa-whatsapp"></span></a></li>
+                <li><a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a></li>
+
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <hr>
     <div class="container py-4">
-        <div class="copyright">
-            &copy; Copyright <strong>Dacentric technologies</strong>.All Rights Reserved
-        </div>
+      <div class="copyright">
+        &copy; Copyright <strong><a href="https://www.dacentrictechnologies.com/" target="_blank">DaCentric Technologies</strong></a> All Rights Reserved
+      </div>
 
     </div>
-    </footer>
+  </footer>
 
 
   <!-- <footer id="footer" class="footer">
@@ -524,7 +524,7 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
             </div>
           </div>End footer info column -->
 
-          <!-- <div class="col-lg-2 col-md-3 footer-links">
+  <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><a href="#">Home</a></li>
@@ -532,23 +532,23 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
               <li><a href="#">Services</a></li>
               <li><a href="#">Terms of service</a></li>
                <li><a href="#">Privacy policy</a></li> -->
-            <!-- </ul> -->
-          <!-- </div>End footer links column -->
+  <!-- </ul> -->
+  <!-- </div>End footer links column -->
 
-          <!-- <div class="col-lg-2 col-md-3 footer-links">
+  <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><a href="#">Web Design</a></li>
               <li><a href="#">Web Development</a></li>
               <li><a href="#">Product Management</a></li> -->
-              <!-- <li><a href="#">Marketing</a></li> -->
-              <!-- <li><a href="#">Graphic Design</a></li> -->
-            <!-- </ul>
+  <!-- <li><a href="#">Marketing</a></li> -->
+  <!-- <li><a href="#">Graphic Design</a></li> -->
+  <!-- </ul>
           </div>End footer links column  -->
 
 
 
-        <!-- </div>
+  <!-- </div>
       </div>
     </div>
 
@@ -559,10 +559,10 @@ Madinat Al Riad / Shamkha /Samkha South / Al Wathba /AL Shahama New / Albahya OL
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  <!-- You can delete the links only if you purchased the pro version. -->
+  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+  <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+  <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </div>

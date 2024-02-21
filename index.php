@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,13 +88,13 @@
           <div class="col-lg-6">
             <h2 data-aos="fade-down"><span>Palazzo General Contracting LLC</span></h2>
             <!--  <p data-aos="fade-up">Palazzo General Contracting L.L.C is a trusted general -->
-               <!-- contractor with a proven track record of excellence. They combine experience, expertise,
+            <!-- contractor with a proven track record of excellence. They combine experience, expertise,
                 and customer satisfaction to ensure the successful completion of every project.
             </p>  -->
           </div>
-            <div class="text-center">
-              <a data-aos="fade-up" data-aos-delay="200" href="about.php" class="btn-get-started">Get Started</a>
-            </div>
+          <div class="text-center">
+            <a data-aos="fade-up" data-aos-delay="200" href="about.php" class="btn-get-started">Get Started</a>
+          </div>
         </div>
       </div>
     </div>
@@ -184,8 +183,8 @@
 
     <!-- End Get Started Section -->
 
-  <section id="features" class="features section-bg">
-    <div class="container background-image" data-aos="fade-up">
+    <section id="features" class="features section-bg">
+      <div class="container background-image" data-aos="fade-up">
 
 
 
@@ -194,7 +193,7 @@
           <div class="tab-pane active show" id="tab-1">
             <div class="row">
               <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
-               <div class="content">
+                <div class="content">
                   <h3>Why Choose Us?</h3>
                   <p>Skilled Team: Our team consists of highly skilled professionals including project managers, architects, engineers and craftsmen, who are dedicated to delivering exceptional workmanship. We carefully select our team members and invest in their ongoing training to stay up-to-date with the latest construction techniques and industry trends.
                   </p>
@@ -211,186 +210,192 @@
 
         </div>
 
-    </div>
-
-  </section>
-
-
-
-
-
-   <!-- ======= Services Section ======= -->
-
-  <section id="services" class="services section-bg">
-    <div class="container" data-aos="fade-up">
-
-
-
-     <div class="section-header">
-       <h2>Our Services</h2>
-        <p>"Palazzo provides a range of services that end up structuring a winning formula for tackling
-          and managing your construction project efectively"</p>
       </div>
 
-      <div class="row gy-4">
+    </section>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-item  position-relative">
-            <div class="icon">
-              <i class="fa-solid fa-mountain-city"></i>
-            </div>
-            <a href="services.php#alt-services-2"><h3>General Construction</h3></a>
-            <p>Palazzo offers a wide range of construction services, which may include site preparation,
-               foundation work, structural framing, MEP installations, finishing work, landscaping, and more.</p>
-            <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
-          </div>
-        </div><!-- End Service Item -->
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-            </div>
-            <a href="services.php#alt-services"><h3>Interior design & Fitout</h3></a>
-            <p>Interior Design should reflect the personality and preferences of the people who inhabit
-              the space. At Palazzo, we understand the importance of creating a dream home or a comfortable space
-              that reflects the owners' desires.</p>
-            <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
-          </div>
-        </div><!-- End Service Item -->
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="fa-solid fa-compass-drafting"></i>
+
+
+    <!-- ======= Services Section ======= -->
+
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+
+
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>"Palazzo provides a range of services that end up structuring a winning formula for tackling
+            and managing your construction project efectively"</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-mountain-city"></i>
+              </div>
+              <a href="services.php#alt-services-2">
+                <h3>General Construction</h3>
+              </a>
+              <p>Palazzo offers a wide range of construction services, which may include site preparation,
+                foundation work, structural framing, MEP installations, finishing work, landscaping, and more.</p>
+              <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
             </div>
-            <a href="services.php#alt-services-3"><h3>MEP Services</h3></a>
-            <p>MEP engineering is a growing field as more and more emphasis is placed on energy
-               efficiency and sustainability in the built environment. There are many opportunities
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+              </div>
+              <a href="services.php#alt-services">
+                <h3>Interior design & Fitout</h3>
+              </a>
+              <p>Interior Design should reflect the personality and preferences of the people who inhabit
+                the space. At Palazzo, we understand the importance of creating a dream home or a comfortable space
+                that reflects the owners' desires.</p>
+              <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-compass-drafting"></i>
+              </div>
+              <a href="services.php#alt-services-3">
+                <h3>MEP Services</h3>
+              </a>
+              <p>MEP engineering is a growing field as more and more emphasis is placed on energy
+                efficiency and sustainability in the built environment. There are many opportunities
                 for MEP engineers to positively impact the world</p>
-            <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
-          </div>
-        </div><!-- End Service Item -->
+              <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div><!-- End Service Item -->
 
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- ======= Company Culture======= -->
+    <section id="alt-services" class="alt-services">
+
+      <div class="container background-image" data-aos="fade-up">
+
+        <div class="row justify-content ">
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/demo2.png);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>Our Company Culture</h3>
+
+            <div>
+              <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                <div>
+                  <h4><a class="stretched-link">Values and Purposes</a></h4>
+                  <p>Our company is built upon a clear set of core values and a compelling purpose that guides the organization's actions and decisions.</p>
+                </div>
+              </div>
+
+
+              <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4><a class="stretched-link">Recognition and Appreciation</a></h4>
+                  <p>Acknowledging and rewarding employees for their efforts and achievements fosters motivation and a sense of belonging.</p>
+                </div>
+              </div>
+
+
+              <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-easel flex-shrink-0"></i>
+                <div>
+                  <h4><a class="stretched-link">Teamwork and Collaboration</a></h4>
+                  <p>Encouraging collaboration and teamwork fosters a sense of camaraderie and collective achievement</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
 
       </div>
 
-    </div>
-  </section>
+
+    </section>
 
 
 
+    <section id="about-boxes" class="about-boxes">
+      <div class="container" data-aos="fade-up">
 
+        <div class="section-header">
+          <h2>Our Projects</h2>
+          <p>" As a company that offers a combination of civil works, MEP, and interior design and fitout services, you have the expertise and capability to manage projects from their initial stages all the way to completion."</p>
+        </div>
 
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src="assets\img\projects_index_3.jpg.png" class="card-img-top" alt="...">
 
-<!-- ======= Company Culture======= -->
-<section id="alt-services" class="alt-services">
+              <div class="card-body">
+                <h5 class="card-title"><a href="projects.php">All Projects</a></h5>
 
-  <div class="container background-image" data-aos="fade-up">
-
-    <div class="row justify-content ">
-      <div class="col-lg-6 img-bg" style="background-image: url(assets/img/demo2.png);" data-aos="zoom-in" data-aos-delay="100"></div>
-
-      <div class="col-lg-5 d-flex flex-column justify-content-center">
-        <h3>Our Company Culture</h3>
-
-        <div>
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-            <i class="bi bi-brightness-high flex-shrink-0"></i>
-            <div>
-              <h4><a class="stretched-link">Values and Purposes</a></h4>
-              <p>Our company is built upon a clear set of core values and a compelling purpose that guides the organization's actions and decisions.</p>
+              </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src="assets\img\projects_index_2.png" class="card-img-top" alt="...">
 
+              <div class="card-body">
+                <h5 class="card-title"><a href="civilprojects.php#filter-civilworks">Civil Projects</a></h5>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-            <i class="bi bi-patch-check flex-shrink-0"></i>
-            <div>
-              <h4><a class="stretched-link">Recognition and Appreciation</a></h4>
-              <p>Acknowledging and rewarding employees for their efforts and achievements fosters motivation and a sense of belonging.</p>
+              </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets\img\projects_index_1.png" class="card-img-top" alt="...">
 
+              <div class="card-body">
+                <h5 class="card-title"><a href="interiorprojects.php#filter-interiorworks'">Interior Projects</a></h5>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-            <i class="bi bi-easel flex-shrink-0"></i>
-            <div>
-              <h4><a class="stretched-link">Teamwork and Collaboration</a></h4>
-              <p>Encouraging collaboration and teamwork fosters a sense of camaraderie and collective achievement</p>
+              </div>
             </div>
           </div>
         </div>
 
-
       </div>
 
-    </div>
+    </section>
 
-  </div>
+    <div id="button" class="button">
 
-
-</section>
-
-
-
-<section id="about-boxes" class="about-boxes">
-  <div class="container" data-aos="fade-up">
-
-    <div class="section-header">
-      <h2>Our Projects</h2>
-      <p>" As a company that offers a combination of civil works, MEP, and interior design and fitout services, you have the expertise and capability to manage projects from their initial stages all the way to completion."</p>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-        <div class="card">
-          <img src="assets\img\projects_index_3.jpg.png" class="card-img-top" alt="...">
-
-          <div class="card-body">
-            <h5 class="card-title"><a href="projects.php">All Projects</a></h5>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-        <div class="card">
-          <img src="assets\img\projects_index_2.png" class="card-img-top" alt="...">
-
-          <div class="card-body">
-            <h5 class="card-title"><a href="civilprojects.php#filter-civilworks">Civil Projects</a></h5>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-        <div class="card">
-          <img src="assets\img\projects_index_1.png" class="card-img-top" alt="...">
-
-          <div class="card-body">
-            <h5 class="card-title"><a href="interiorprojects.php#filter-interiorworks'">Interior Projects</a></h5>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-</section>
-
-  <div id="button" class="button">
-
-    <div class="info d-flex align-items-center">
-      <div class="container">
-        <div class="row justify-content-center">
+      <div class="info d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center">
             <div class="text-center">
-              <a data-aos="fade-up" data-aos-delay="200" href="https://drive.google.com/file/d/1XtCyFfQNb8tyr44Dy0K-OrrT8fEfXvjN/view?usp=drive_link" class="btn-get-started" >Download Company Profile</a>
+              <a data-aos="fade-up" target="_blank" data-aos-delay="200" href="https://drive.google.com/file/d/1XtCyFfQNb8tyr44Dy0K-OrrT8fEfXvjN/view?usp=drive_link" class="btn-get-started">Download Company Profile</a>
             </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
 
@@ -403,73 +408,73 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" style="margin-top: 50px;">
     <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 footer-content">
-                    <h4 style="font-size: 19px;">Address</h4>
-                    <ul class="list-unstyled footer-link">
-                      <li class="d-flex">
-                      <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>Mohamed Amanalla Husain<br>Khouri And his Children Building,<br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
-                      </li>
-                      <li class="d-flex" style="padding-top:0.5cm;">
-                        <span class="me-0"></span><span class="text-white">Mob&nbsp;:&nbsp;&nbsp;+971529933610<br>Tel&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;+97126736310</span>
-                      </li>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-content">
+            <h4 style="font-size: 19px;">Address</h4>
+            <ul class="list-unstyled footer-link">
+              <li class="d-flex">
+                <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>Mohamed Amanalla Husain<br>Khouri And his Children Building,<br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
+              </li>
+              <li class="d-flex" style="padding-top:0.5cm;">
+                <span class="me-0"></span><span class="text-white">Mob&nbsp;:&nbsp;&nbsp;+971529933610<br>Tel&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;+97126736310</span>
+              </li>
 
-                        <li class="d-flex" style="padding-top:0.5cm;">
-                          <span class="me-0">Email&nbsp;:&nbsp;</span><span class="text-white">info@palazzouae.com</span>
+              <li class="d-flex" style="padding-top:0.5cm;">
+                <span class="me-0">Email&nbsp;:&nbsp;</span><span class="text-white">info@palazzouae.com</span>
 
-                        </li>
-                    </ul>
-                  </div>
-
-
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Useful Links</h4>
-                    <ul>
-                      <li><a href="index.php">Home</a></li>
-                      <li><a href="about.php">About</a></li>
-                      <li><a href="services.php">Services</a></li>
-                      <li><a href="projects.php">Projects</a></li>
-                      <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                </div>
+              </li>
+            </ul>
+          </div>
 
 
 
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Our Services</h4>
-                    <ul>
-                        <li><a href="services.php#alt-services-2">General Construction</a></li>
-                        <li><a href="services.php#alt-services">Interior Design & Fitout</a></li>
-                        <li><a href="services.php#alt-services-3">MEP Services</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Our Social Network</h4>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 style="font-size: 19px;">Useful Links</h4>
+            <ul>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="services.php">Services</a></li>
+              <li><a href="projects.php">Projects</a></li>
+              <li><a href="contact.php">Contact</a></li>
+            </ul>
+          </div>
 
-                    <div class="social-links mt-3">
-                      <ul class="list-unstyled footer-link d-flex footer-social">
-                      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                      <li><a href="https://instagram.com/palazzo.general.contracting?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a></li>
-                      <li><a href="https://www.linkedin.com/in/palazzo-general-contracting-17218a291/"><span class="fa fa-linkedin"></span></a></li>
-                      <li><a href="https://wa.me/+971529933610"><span class="fa fa-whatsapp"></span></a></li>
-                      <li><a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a></li>
 
-                      </ul>
-                    </div>
-                </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 style="font-size: 19px;">Our Services</h4>
+            <ul>
+              <li><a href="services.php#alt-services-2">General Construction</a></li>
+              <li><a href="services.php#alt-services">Interior Design & Fitout</a></li>
+              <li><a href="services.php#alt-services-3">MEP Services</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 style="font-size: 19px;">Our Social Network</h4>
+
+            <div class="social-links mt-3">
+              <ul class="list-unstyled footer-link d-flex footer-social">
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="https://instagram.com/palazzo.general.contracting?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/palazzo-general-contracting-17218a291/"><span class="fa fa-linkedin"></span></a></li>
+                <li><a href="https://wa.me/+971529933610"><span class="fa fa-whatsapp"></span></a></li>
+                <li><a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a></li>
+
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <hr>
     <div class="container py-4">
-        <div class="copyright">
-            &copy; Copyright <strong>Dacentric technologies</strong>.All Rights Reserved
-        </div>
+      <div class="copyright">
+        &copy; Copyright <strong><a href="https://www.dacentrictechnologies.com/" target="_blank">DaCentric Technologies</strong></a> All Rights Reserved
+      </div>
 
     </div>
-    </footer>
+  </footer>
 
 
 

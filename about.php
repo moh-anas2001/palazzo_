@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-   <!-- <link href="assets/img/favicon.png" rel="icon">  -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">  -->
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -183,7 +183,7 @@
             <!-- <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div> -->
-                <!-- <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+            <!-- <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
               </div>
             </div>End Icon Box -->
@@ -230,81 +230,81 @@
 
 
 
-  <!-- </main>End #main -->
+    <!-- </main>End #main -->
 
-  <!-- ======= Footer ======= -->
+    <!-- ======= Footer ======= -->
 
 
-  <footer id="footer" style="margin-top: 50px;">
-    <div class="footer-top">
+    <footer id="footer" style="margin-top: 50px;">
+      <div class="footer-top">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 footer-content">
-                    <h4 style="font-size: 19px;">Address</h4>
-                    <ul class="list-unstyled footer-link">
-                      <li class="d-flex">
-                        <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>Mohamed Amanalla Husain<br>Khouri And his Children Building,<br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
-                      </li>
-                      <li class="d-flex" style="padding-top:0.5cm;">
-                        <span class="me-0"></span><span class="text-white">Mob&nbsp;:&nbsp;&nbsp;+971529933610<br>Tel&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;+97126736310</span>
-                        </li>
-                        <li class="d-flex" style="padding-top:0.5cm;">
-                          <span class="me-0">Email&nbsp;:&nbsp;</span><span class="text-white">info@palazzouae.com</span>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-content">
+              <h4 style="font-size: 19px;">Address</h4>
+              <ul class="list-unstyled footer-link">
+                <li class="d-flex">
+                  <span class="me-0"></span><span class="text-white">Mezzanine Floor Office no: 3<br>Mohamed Amanalla Husain<br>Khouri And his Children Building,<br>Al Nahyan, Abu Dhabi<br>United Arab Emirates</span>
+                </li>
+                <li class="d-flex" style="padding-top:0.5cm;">
+                  <span class="me-0"></span><span class="text-white">Mob&nbsp;:&nbsp;&nbsp;+971529933610<br>Tel&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;+97126736310</span>
+                </li>
+                <li class="d-flex" style="padding-top:0.5cm;">
+                  <span class="me-0">Email&nbsp;:&nbsp;</span><span class="text-white">info@palazzouae.com</span>
 
-                          </li>
-                    </ul>
-                  </div>
-
-
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Useful Links</h4>
-                    <ul>
-                      <li><a href="index.php">Home</a></li>
-                      <li><a href="about.php">About</a></li>
-                      <li><a href="services.php">Services</a></li>
-                      <li><a href="projects.php">Projects</a></li>
-                      <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                </div>
-
-
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Our Services</h4>
-                    <ul>
-                      <li><a href="services.php#alt-services-2">General Construction</a></li>
-                      <li><a href="services.php#alt-services">Interior Design & Fitout</a></li>
-                      <li><a href="services.php#alt-services-3">MEP Services</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 style="font-size: 19px;">Our Social Network</h4>
-
-                    <div class="social-links mt-3">
-                      <ul class="list-unstyled footer-link d-flex footer-social">
-                      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                      <li><a href="https://instagram.com/palazzo.general.contracting?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a></li>
-                      <li><a href="https://www.linkedin.com/in/palazzo-general-contracting-17218a291/"><span class="fa fa-linkedin"></span></a></li>
-                      <li><a href="https://wa.me/+971529933610"><span class="fa fa-whatsapp"></span></a></li>
-                      <li><a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                </div>
+                </li>
+              </ul>
             </div>
+
+
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4 style="font-size: 19px;">Useful Links</h4>
+              <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="projects.php">Projects</a></li>
+                <li><a href="contact.php">Contact</a></li>
+              </ul>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4 style="font-size: 19px;">Our Services</h4>
+              <ul>
+                <li><a href="services.php#alt-services-2">General Construction</a></li>
+                <li><a href="services.php#alt-services">Interior Design & Fitout</a></li>
+                <li><a href="services.php#alt-services-3">MEP Services</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4 style="font-size: 19px;">Our Social Network</h4>
+
+              <div class="social-links mt-3">
+                <ul class="list-unstyled footer-link d-flex footer-social">
+                  <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="https://instagram.com/palazzo.general.contracting?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a></li>
+                  <li><a href="https://www.linkedin.com/in/palazzo-general-contracting-17218a291/"><span class="fa fa-linkedin"></span></a></li>
+                  <li><a href="https://wa.me/+971529933610"><span class="fa fa-whatsapp"></span></a></li>
+                  <li><a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <hr>
-    <div class="container py-4">
+      </div>
+      <hr>
+      <div class="container py-4">
         <div class="copyright">
-            &copy; Copyright <strong>Dacentric technologies</strong>.All Rights Reserved
+          &copy; Copyright <strong><a href="https://www.dacentrictechnologies.com/" target="_blank">DaCentric Technologies</strong></a> All Rights Reserved
         </div>
 
-    </div>
+      </div>
     </footer>
 
 
-  <!-- <footer id="footer" class="footer">
+    <!-- <footer id="footer" class="footer">
 
     <div class="footer-content position-relative">
       <div class="container">
@@ -328,7 +328,7 @@
             </div>
           </div>End footer info column -->
 
-          <!-- <div class="col-lg-2 col-md-3 footer-links">
+    <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><a href="#">Home</a></li>
@@ -336,23 +336,23 @@
               <li><a href="#">Services</a></li>
               <li><a href="#">Terms of service</a></li>
                <li><a href="#">Privacy policy</a></li> -->
-            <!-- </ul> -->
-          <!-- </div>End footer links column -->
+    <!-- </ul> -->
+    <!-- </div>End footer links column -->
 
-          <!-- <div class="col-lg-2 col-md-3 footer-links">
+    <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><a href="#">Web Design</a></li>
               <li><a href="#">Web Development</a></li>
               <li><a href="#">Product Management</a></li> -->
-              <!-- <li><a href="#">Marketing</a></li> -->
-              <!-- <li><a href="#">Graphic Design</a></li> -->
-            <!-- </ul>
+    <!-- <li><a href="#">Marketing</a></li> -->
+    <!-- <li><a href="#">Graphic Design</a></li> -->
+    <!-- </ul>
           </div>End footer links column  -->
 
 
 
-        <!-- </div>
+    <!-- </div>
       </div>
     </div>
 
@@ -363,10 +363,10 @@
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+    <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </div>
@@ -375,23 +375,23 @@
 
 
 
-  <!-- End Footer -->
+    <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <div id="preloader"></div>
+    <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
 </body>
 
