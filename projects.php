@@ -40,7 +40,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/palazzo-logo.png" alt="">
         <!-- <h1>UpConstruction<span>.</span></h1> -->
@@ -50,11 +50,11 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html" class="active">Projects</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="projects.php" class="active">Projects</a></li>
+          <!-- <li><a href="blog.php">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -72,7 +72,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -114,7 +114,7 @@
                    <!-- <h4></h4>  -->
                   <p>p name</p>
                   <a href="jj"  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -127,7 +127,7 @@
                   <h4>Civil works 2</h4>
                   <p>South Shamkha</p>
                   <a href="assets/img/projects/south shamkha.jpg" title="Civil works 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@
                   <h4>Civil Works 3</h4>
                   <p>Private Villa: Mr.O.Z</p>
                   <a href="assets/img/projects/banayas west.jpg" title="Civil works 3" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div> 
@@ -153,7 +153,7 @@
                   <h4>Civil Works 4</h4>
                   <p>Shamkha</p>
                   <a href="assets/img/projects/Shamkha.jpg" title="cilvil works 4" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -165,7 +165,7 @@
                   <h4>Civil Works 5</h4>
                   <p>Madinat Al Riyadh</p>
                   <a href="assets/img/projects/Madinet Al Riyadh.jpg" title="civil works 5" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -177,7 +177,7 @@
                   <h4>Civil Works 6</h4>
                   <p>South A Shamkha</p>
                   <a href="assets/img/projects/South a Shamkha.jpg" title="civil works 6" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -189,7 +189,7 @@
                   <h4>Civil Works 7</h4>
                   <p>Private Villa: MSH.Q</p>
                   <a href="assets/img/projects/Shakboot.jpg" title="civil works 7" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -201,7 +201,7 @@
                   <h4>MEP Works 1</h4>
                   <p>Alrahb farm-74</p>
                   <a href="assets/img/projects/Alrahb farm-74 MEP.png" title="MEP Works 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -213,7 +213,7 @@
                   <h4>MEP Works 2</h4>
                   <p>Private Majllis_Hadd Alsaadiyat</p>
                   <a href="assets/img/projects/Private majlis- Hadd Alsadhiyath MEP.png" title="MEP Works 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -225,7 +225,7 @@
                   <h4>Interior works 1</h4>
                   <p>Conference room</p>
                   <a href="assets/img/projects/conference room-Liwa tower.png" title="Interior Works 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -237,7 +237,7 @@
                   <h4>Interior works2</h4>
                   <p>Made of love cafe</p>
                   <a href="assets/img/projects/mde of love cafe-shikh fatima.png" title="Interior Works 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -249,7 +249,7 @@
                   <h4>Interior works 3</h4>
                   <p>Al Dimashqi Resturant</p>
                   <a href="assets/img/projects/al dimashqi restaurant.png" title="Interior Works 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -261,7 +261,7 @@
                   <h4>Interior works 4</h4>
                   <p>Resident villa</p>
                   <a href="assets/img/projects/resident villa - UAE Al riyadh.png" title="Interior Works 4" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -273,7 +273,7 @@
                   <h4>Interior works 5</h4>
                   <p>ASA L.L.C - Offices</p>
                   <a href="assets/img/projects/ASA L.L.C.png.jpg" title="Interior Works 5" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -285,7 +285,7 @@
                   <h4>Interior works 6</h4>
                   <p>Resident villa</p>
                   <a href="assets/img/projects/Resident villa- Banyas- Alwathba south.png" title="Interior Works 6" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -297,7 +297,7 @@
                   <h4>Interior works 7</h4>
                   <p>Resident villa</p>
                   <a href="assets/img/projects/south shamkha plot 101 rd 17.png" title="Interior Works 7" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -309,7 +309,7 @@
                   <h4>Interior works 8</h4>
                   <p>Resident villa</p>
                   <a href="assets/img/projects/SOUTH SHAMKHA.png" title="Interior Works 8" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                  <!-- <a href="project-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div>  
@@ -351,11 +351,11 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Useful Links</h4>
                     <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="services.html">Services</a></li>
-                      <li><a href="projects.html">Projects</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="index.php">Home</a></li>
+                      <li><a href="about.php">About</a></li>
+                      <li><a href="services.php">Services</a></li>
+                      <li><a href="projects.php">Projects</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
 
@@ -364,9 +364,9 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Our Services</h4>
                     <ul>
-                      <li><a href="services.html#alt-services-2">General Construction</a></li>
-                      <li><a href="services.html#alt-services">Interior Design & Fitout</a></li>
-                      <li><a href="services.html#alt-services-3">MEP Services</a></li>
+                      <li><a href="services.php#alt-services-2">General Construction</a></li>
+                      <li><a href="services.php#alt-services">Interior Design & Fitout</a></li>
+                      <li><a href="services.php#alt-services-3">MEP Services</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer-links">

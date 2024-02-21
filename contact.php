@@ -39,7 +39,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/palazzo-logo.png" alt="">
         <!-- <h1>UpConstruction<span>.</span></h1> -->
@@ -49,11 +49,11 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <!-- <li><a href="blog.php">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -71,7 +71,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="contact.php" class="active">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -130,7 +130,7 @@
           </div><!-- End Google Maps -->
 
           <div class="col-lg-6">
-            <form id="contact-form" method="POST" action="contact.html" class="contact-form" onsubmit="sendEmail(); reset(); return false;">
+            <form id="contact-form" method="POST" action="contact.php" class="contact-form" onsubmit="sendEmail(); reset(); return false;">
 
 
               <div class="row gy-4">
@@ -190,11 +190,11 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Useful Links</h4>
                     <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="services.html">Services</a></li>
-                      <li><a href="projects.html">Projects</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="index.php">Home</a></li>
+                      <li><a href="about.php">About</a></li>
+                      <li><a href="services.php">Services</a></li>
+                      <li><a href="projects.php">Projects</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
 
@@ -203,9 +203,9 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Our Services</h4>
                     <ul>
-                      <li><a href="services.html#alt-services-2">General Construction</a></li>
-                      <li><a href="services.html#alt-services">Interior Design & Fitout</a></li>
-                      <li><a href="services.html#alt-services-3">MEP Services</a></li>
+                      <li><a href="services.php#alt-services-2">General Construction</a></li>
+                      <li><a href="services.php#alt-services">Interior Design & Fitout</a></li>
+                      <li><a href="services.php#alt-services-3">MEP Services</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer-links">

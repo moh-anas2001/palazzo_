@@ -40,7 +40,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/palazzo-logo.png" alt="">
         <!-- <h1>UpConstruction<span>.</span></h1> -->
@@ -50,11 +50,11 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.php" class="active">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <!-- <li><a href="blog.php">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -72,7 +72,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -94,7 +94,7 @@
             </p>  -->
           </div>
             <div class="text-center">
-              <a data-aos="fade-up" data-aos-delay="200" href="about.html" class="btn-get-started">Get Started</a>
+              <a data-aos="fade-up" data-aos-delay="200" href="about.php" class="btn-get-started">Get Started</a>
             </div>
         </div>
       </div>
@@ -239,10 +239,10 @@
             <div class="icon">
               <i class="fa-solid fa-mountain-city"></i>
             </div>
-            <a href="services.html#alt-services-2"><h3>General Construction</h3></a>
+            <a href="services.php#alt-services-2"><h3>General Construction</h3></a>
             <p>Palazzo offers a wide range of construction services, which may include site preparation,
                foundation work, structural framing, MEP installations, finishing work, landscaping, and more.</p>
-            <!-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
+            <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
           </div>
         </div><!-- End Service Item -->
 
@@ -251,11 +251,11 @@
             <div class="icon">
               <i class="fa-solid fa-arrow-up-from-ground-water"></i>
             </div>
-            <a href="services.html#alt-services"><h3>Interior design & Fitout</h3></a>
+            <a href="services.php#alt-services"><h3>Interior design & Fitout</h3></a>
             <p>Interior Design should reflect the personality and preferences of the people who inhabit
               the space. At Palazzo, we understand the importance of creating a dream home or a comfortable space
               that reflects the owners' desires.</p>
-            <!-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
+            <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
           </div>
         </div><!-- End Service Item -->
 
@@ -264,11 +264,11 @@
             <div class="icon">
               <i class="fa-solid fa-compass-drafting"></i>
             </div>
-            <a href="services.html#alt-services-3"><h3>MEP Services</h3></a>
+            <a href="services.php#alt-services-3"><h3>MEP Services</h3></a>
             <p>MEP engineering is a growing field as more and more emphasis is placed on energy
                efficiency and sustainability in the built environment. There are many opportunities
                 for MEP engineers to positively impact the world</p>
-            <!-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
+            <!-- <a href="service-details.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
           </div>
         </div><!-- End Service Item -->
 
@@ -348,7 +348,7 @@
           <img src="assets\img\projects_index_3.jpg.png" class="card-img-top" alt="...">
 
           <div class="card-body">
-            <h5 class="card-title"><a href="projects.html">All Projects</a></h5>
+            <h5 class="card-title"><a href="projects.php">All Projects</a></h5>
 
           </div>
         </div>
@@ -358,7 +358,7 @@
           <img src="assets\img\projects_index_2.png" class="card-img-top" alt="...">
 
           <div class="card-body">
-            <h5 class="card-title"><a href="civilprojects.html#filter-civilworks">Civil Projects</a></h5>
+            <h5 class="card-title"><a href="civilprojects.php#filter-civilworks">Civil Projects</a></h5>
 
           </div>
         </div>
@@ -368,7 +368,7 @@
           <img src="assets\img\projects_index_1.png" class="card-img-top" alt="...">
 
           <div class="card-body">
-            <h5 class="card-title"><a href="interiorprojects.html#filter-interiorworks'">Interior Projects</a></h5>
+            <h5 class="card-title"><a href="interiorprojects.php#filter-interiorworks'">Interior Projects</a></h5>
 
           </div>
         </div>
@@ -427,11 +427,11 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Useful Links</h4>
                     <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="services.html">Services</a></li>
-                      <li><a href="projects.html">Projects</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="index.php">Home</a></li>
+                      <li><a href="about.php">About</a></li>
+                      <li><a href="services.php">Services</a></li>
+                      <li><a href="projects.php">Projects</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
 
@@ -440,9 +440,9 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 style="font-size: 19px;">Our Services</h4>
                     <ul>
-                        <li><a href="services.html#alt-services-2">General Construction</a></li>
-                        <li><a href="services.html#alt-services">Interior Design & Fitout</a></li>
-                        <li><a href="services.html#alt-services-3">MEP Services</a></li>
+                        <li><a href="services.php#alt-services-2">General Construction</a></li>
+                        <li><a href="services.php#alt-services">Interior Design & Fitout</a></li>
+                        <li><a href="services.php#alt-services-3">MEP Services</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer-links">
