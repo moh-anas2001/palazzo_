@@ -34,25 +34,21 @@ if (isset($_POST['email'])) {
             $_SESSION['username'] = $user['username'];
             $_SESSION['role'] = $user['role']; // Assuming the role column in your database is named 'role'
 
-            set_message("You have successfully logged in " . $_SESSION['username']);
 
-              if ($_SESSION['role'] === 'Admin') {
-        header('Location: dashboard.php');
-        exit(); // It's a good practice to include exit after a header redirect
-    } elseif ($_SESSION['role'] === 'Blogger') {
-        header('Location: add_blogs.php'); // Corrected filename here
-        exit(); // It's a good practice to include exit after a header redirect
-    }
-            
+
+            if ($_SESSION['role'] === 'Admin') {
+                header('Location: dashboard.php');
+                exit(); // It's a good practice to include exit after a header redirect
+            } elseif ($_SESSION['role'] === 'Blogger') {
+                header('Location: add_blogs.php'); // Corrected filename here
+                exit(); // It's a good practice to include exit after a header redirect
+            }
         }
 
         $stm->close();
-
     } else {
         echo 'Could not prepare statement!';
     }
-
-
 }
 ?>
 
@@ -65,8 +61,7 @@ if (isset($_POST['email'])) {
     <title>Admin Login</title>
 
     <!-- Vendor CSS file -->
-    <link rel="stylesheet"
-        href=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/css/bootstrap.min.css>
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/css/bootstrap.min.css>
     <!-- Custom CSS files -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -84,29 +79,25 @@ if (isset($_POST['email'])) {
                         <h3><strong>ADMIN LOGIN</strong></h3>
 
                         <div class="text-center">
-                            <img src="https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295397__340.png"
-                                class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px"
-                                alt="profile">
+                            <img src="https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295397__340.png" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px" alt="profile">
                         </div>
 
                         <div class="mb-3">
                             <label class="form-label" for="email"></label>
-                            <input type="email" id="email" name="email" class="form-control" required
-                                placeholder="Enter Email" />
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="Enter Email" />
 
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="password"></label>
-                            <input type="password" id="password" name="password" class="form-control" required
-                                placeholder="Enter Password" />
+                            <input type="password" id="password" name="password" class="form-control" required placeholder="Enter Password" />
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-color px-5 mt-3 mb-3">Login</button>
-                            
+
                         </div>
-                        <div class="text-center">
-                        <a href="register.php" class="btn btn-link">New user? Register Here</a> 
-                        </div>
+                        <!-- <div class="text-center">
+                            <a href="register.php" class="btn btn-link">New user? Register Here</a>
+                        </div> -->
                     </form>
                 </div>
 

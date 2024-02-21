@@ -77,10 +77,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
-    <meta name="description"
-        content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description" content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
     <title>Palazzo Manager</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
@@ -103,8 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
-        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
@@ -133,8 +130,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
-                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -142,8 +138,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
                     <ul class="navbar-nav d-none d-md-block d-lg-none">
                         <li class="nav-item">
-                            <a class="nav-toggler nav-link waves-effect waves-light text-white"
-                                href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                            <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                         </li>
                     </ul>
                     <!-- ============================================================== -->
@@ -165,7 +160,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
-                         <li class="dropdown">
+                        <li class="dropdown">
                             <a class="profile-pic" href="#">
                                 <?php
                                 // Include the database configuration
@@ -214,65 +209,57 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                         <!-- User Profile-->
-                        <li class="sidebar-item pt-2">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php"
-                                aria-expanded="false">
+                        <!-- <li class="sidebar-item pt-2">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="far fa-clock" aria-hidden="true"></i>
                                 <span class="hide-menu">Dashboard</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php" aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <span class="hide-menu">Profile</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php" aria-expanded="false">
                                 <i class="far fa-lightbulb" aria-hidden="true"></i>
                                 <span class="hide-menu">New Projects</span>
                             </a>
                         </li>
 
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_jobs.php"
-                                aria-expanded="false">
+                        <!-- <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_jobs.php" aria-expanded="false">
                                 <i class="fa fa-globe" aria-hidden="true"></i>
                                 <span class="hide-menu">New Jobs</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="stats.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="stats.php" aria-expanded="false">
                                 <i class="fas fa-chart-line" aria-hidden="true"></i>
                                 <span class="hide-menu">Update Statistics</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_testimonial.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_testimonial.php" aria-expanded="false">
                                 <i class="fa fa-comment" aria-hidden="true"></i>
                                 <span class="hide-menu">New Testimonials</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_logo.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_logo.php" aria-expanded="false">
                                 <i class="fas fa-image" aria-hidden="true"></i>
                                 <span class="hide-menu">Add Logo</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_blogs.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_blogs.php" aria-expanded="false">
                                 <i class="fas fa-upload" aria-hidden="true"></i>
                                 <span class="hide-menu">Add Blogs</span>
                             </a>
-                        </li>
+                        </li> -->
 
                     </ul>
 
@@ -348,21 +335,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="">
                         <div class="card">
                             <div class="card-body">
-                                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post"
-                                    enctype="multipart/form-data" class="form-horizontal form-material">
+                                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data" class="form-horizontal form-material">
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">User Name</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="text" name="username" placeholder="Enter Your name" required
-                                                class="form-control p-0 border-0">
+                                            <input type="text" name="username" placeholder="Enter Your name" required class="form-control p-0 border-0">
                                         </div>
                                     </div>
                                     <div class="form-group mb-4">
                                         <label for="example-email" class="col-md-12 p-0">Email</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="email" name="email" placeholder="Enter Your Email" required
-                                                class="form-control p-0 border-0" name="example-email"
-                                                id="example-email">
+                                            <input type="email" name="email" placeholder="Enter Your Email" required class="form-control p-0 border-0" name="example-email" id="example-email">
                                         </div>
                                     </div>
                                     <div class="form-group mb-4">
@@ -374,17 +357,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">Password</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="password" name="password" value=""
-                                                class="form-control p-0 border-0" placeholder="enter your password"
-                                                required>
+                                            <input type="password" name="password" value="" class="form-control p-0 border-0" placeholder="enter your password" required>
                                         </div>
                                     </div>
                                     <div class="form-group mb-4">
                                         <label class="col-sm-12">Select role</label>
 
                                         <div class="col-sm-12 border-bottom">
-                                            <select name="role"
-                                                class="form-select shadow-none p-0 border-0 form-control-line">
+                                            <select name="role" class="form-select shadow-none p-0 border-0 form-control-line">
                                                 <option>Admin</option>
                                                 <option>Blogger</option>
                                             </select>
@@ -394,8 +374,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">Phone No</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="number" name=phone required placeholder="Phone Number"
-                                                class="form-control p-0 border-0">
+                                            <input type="number" name=phone required placeholder="Phone Number" class="form-control p-0 border-0">
                                         </div>
                                         <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
                                     </div>
@@ -417,8 +396,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <label class="col-sm-12">Select Country</label>
 
                                         <div class="col-sm-12 border-bottom">
-                                            <select name="country"
-                                                class="form-select shadow-none p-0 border-0 form-control-line">
+                                            <select name="country" class="form-select shadow-none p-0 border-0 form-control-line">
                                                 <option>United Arab Emirates</option>
                                                 <option>India</option>
                                                 <option>London</option>
@@ -461,31 +439,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        <?php
-                                        // Include the database configuration
-                                        require_once('includes/database.php');
+                                            <?php
+                                            // Include the database configuration
+                                            require_once('includes/database.php');
 
-                                        // Fetch projects from the database
-                                        $sql = "SELECT * FROM users";
-                                        $result = $connect->query($sql);
+                                            // Fetch projects from the database
+                                            $sql = "SELECT * FROM users";
+                                            $result = $connect->query($sql);
 
-                                        while ($row = $result->fetch_assoc()) {
-                                            echo "<tr>";
-                                            echo "<td>" . $row["username"] . "</td>";
-                                            echo "<td class='txt-oflo'>" . $row["email"] . "</td>";
-                                            echo "</td>";
-                                            echo "<td class='txt-oflo'>" . $row["password"] . "</td>";
-                                            echo "<td class='txt-oflo'>" . $row["role"] . "</td>";
-                                            echo "<td class='txt-oflo'>" . ($row["status"] == 1 ? "Active" : "Inactive") . "</td>";
-                                            echo "<td><a href='operations/edit_users.php?id=" . $row["id"] . "'>Edit</a>";
-                                            echo "&nbsp;/";
-                                            echo " <a href='operations/delete_users.php?id=" . $row["id"] . "'>Delete</a>";
-                                            echo "</td>";
-                                            echo "</tr>";
-                                        }
+                                            while ($row = $result->fetch_assoc()) {
+                                                echo "<tr>";
+                                                echo "<td>" . $row["username"] . "</td>";
+                                                echo "<td class='txt-oflo'>" . $row["email"] . "</td>";
+                                                echo "</td>";
+                                                echo "<td class='txt-oflo'>" . $row["password"] . "</td>";
+                                                echo "<td class='txt-oflo'>" . $row["role"] . "</td>";
+                                                echo "<td class='txt-oflo'>" . ($row["status"] == 1 ? "Active" : "Inactive") . "</td>";
+                                                echo "<td><a href='operations/edit_users.php?id=" . $row["id"] . "'>Edit</a>";
+                                                echo "&nbsp;/";
+                                                echo " <a href='operations/delete_users.php?id=" . $row["id"] . "'>Delete</a>";
+                                                echo "</td>";
+                                                echo "</tr>";
+                                            }
 
-                                        $connect->close();
-                                        ?>
+                                            $connect->close();
+                                            ?>
 
 
                                         </tbody>
@@ -513,8 +491,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <footer class="footer text-center"> 2024 © Palazzo General Contracting LLC - <a
-                    href="https://www.palazzouae.com/">www.palazzouae.com</a>
+            <footer class="footer text-center"> 2024 © Palazzo General Contracting LLC - <a href="https://www.palazzouae.com/">www.palazzouae.com</a>
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

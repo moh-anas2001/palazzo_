@@ -1,9 +1,9 @@
 <?php
 // Database connection
 $servername = "localhost";
-$username = "dacenj4b_qplus";
+$username = "dacenj4b_palazzo";
 $password = "Dacentric@db";
-$dbname = "dacenj4b_qplus";
+$dbname = "dacenj4b_palazzo";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

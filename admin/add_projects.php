@@ -101,8 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
-        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
@@ -131,8 +130,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
-                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -140,8 +138,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
                     <ul class="navbar-nav d-none d-md-block d-lg-none">
                         <li class="nav-item">
-                            <a class="nav-toggler nav-link waves-effect waves-light text-white"
-                                href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                            <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                         </li>
                     </ul>
                     <!-- ============================================================== -->
@@ -163,7 +160,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
-                         <li class="dropdown">
+                        <li class="dropdown">
                             <a class="profile-pic" href="#">
                                 <?php
                                 // Include the database configuration
@@ -212,64 +209,56 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                         <!-- User Profile-->
-                        <li class="sidebar-item pt-2">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php"
-                                aria-expanded="false">
+                        <!-- <li class="sidebar-item pt-2">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="far fa-clock" aria-hidden="true"></i>
                                 <span class="hide-menu">Dashboard</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php" aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <span class="hide-menu">Profile</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php" aria-expanded="false">
                                 <i class="far fa-lightbulb" aria-hidden="true"></i>
                                 <span class="hide-menu">New Projects</span>
                             </a>
                         </li>
 
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_jobs.php"
-                                aria-expanded="false">
+                        <!-- <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_jobs.php" aria-expanded="false">
                                 <i class="fa fa-globe" aria-hidden="true"></i>
                                 <span class="hide-menu">New Jobs</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="stats.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="stats.php" aria-expanded="false">
                                 <i class="fas fa-chart-line" aria-hidden="true"></i>
                                 <span class="hide-menu">Update Statistics</span>
                             </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_testimonial.php"
-                                aria-expanded="false">
+                        </li> -->
+                        <!-- <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_testimonial.php" aria-expanded="false">
                                 <i class="fa fa-comment" aria-hidden="true"></i>
                                 <span class="hide-menu">New Testimonials</span>
                             </a>
-                        </li>
-                         
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_logo.php"
-                                aria-expanded="false">
+                        </li> -->
+
+                        <!-- <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_logo.php" aria-expanded="false">
                                 <i class="fas fa-image" aria-hidden="true"></i>
                                 <span class="hide-menu">Add Logo</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_blogs.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="admin_blogs.php" aria-expanded="false">
                                 <i class="fas fa-upload" aria-hidden="true"></i>
                                 <span class="hide-menu">Add Blogs</span>
                             </a>
-                        </li>
+                        </li> -->
 
                     </ul>
 
@@ -317,48 +306,41 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="card">
                         <div class="card-body">
 
-                            <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post"
-                                enctype="multipart/form-data" class="form-horizontal form-material">
+                            <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post" enctype="multipart/form-data" class="form-horizontal form-material">
                                 <div class="form-group mb-4">
                                     <label class="col-md-12 p-0">Project Name</label>
                                     <div class="col-md-12 border-bottom p-0">
-                                        <input type="text" name="project_name" placeholder="Enter Project Name" required
-                                            class="form-control p-0 border-0">
+                                        <input type="text" name="project_name" placeholder="Enter Project Name" required class="form-control p-0 border-0">
                                     </div>
                                 </div>
                                 <div class="form-group mb-4">
-                                <label class="col-md-12 p-0">Client Name</label>
+                                    <label class="col-md-12 p-0">Client Name</label>
                                     <div class="col-md-12 border-bottom p-0">
-                                        <input type="text" name="client" placeholder="Enter client Name" required
-                                            class="form-control p-0 border-0">
+                                        <input type="text" name="client" placeholder="Enter client Name" required class="form-control p-0 border-0">
                                     </div>
                                 </div>
                                 <div class="form-group mb-4">
-                                <label class="col-md-12 p-0">Main Contractor Name</label>
+                                    <label class="col-md-12 p-0">Main Contractor Name</label>
                                     <div class="col-md-12 border-bottom p-0">
-                                        <input type="text" name="contractor" placeholder="Enter Main Contractor Name"
-                                            class="form-control p-0 border-0">
+                                        <input type="text" name="contractor" placeholder="Enter Main Contractor Name" class="form-control p-0 border-0">
                                     </div>
                                 </div>
                                 <div class="form-group mb-4">
-                                <label class="col-md-12 p-0">Consultant Name</label>
+                                    <label class="col-md-12 p-0">Consultant Name</label>
                                     <div class="col-md-12 border-bottom p-0">
-                                        <input type="text" name="consultant" placeholder="Enter Consultant Name" 
-                                            class="form-control p-0 border-0">
+                                        <input type="text" name="consultant" placeholder="Enter Consultant Name" class="form-control p-0 border-0">
                                     </div>
                                 </div>
                                 <div class="form-group mb-4">
                                     <label class="col-md-12 p-0">Project Description</label>
                                     <div class="col-md-12 border-bottom p-0">
-                                        <textarea id ="description" rows="5" class="form-control p-0 border-0" name="description"
-                                            placeholder="Enter Project Description" ></textarea>
+                                        <textarea id="description" rows="5" class="form-control p-0 border-0" name="description" placeholder="Enter Project Description"></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group mb-4">
                                     <label class="col-md-12 p-0">Upload Image</label>
                                     <div class="col-md-12 border-bottom p-0">
-                                        <input type="file" name="image" accept="image/*" required
-                                            class="form-control p-0 border-0">
+                                        <input type="file" name="image" accept="image/*" required class="form-control p-0 border-0">
                                     </div>
                                     <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
                                 </div>
@@ -461,8 +443,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <!-- ============================================================== -->
         <!-- footer -->
         <!-- ============================================================== -->
-        <footer class="footer text-center"> 2024 © Palazzo General Contracting LLC - <a
-                href="https://www.palazzouae.com/">www.palazzouae.com</a>
+        <footer class="footer text-center"> 2024 © Palazzo General Contracting LLC - <a href="https://www.palazzouae.com/">www.palazzouae.com</a>
         </footer>
 
         <!-- ============================================================== -->
@@ -481,11 +462,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- All Jquery -->
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             const readMoreLinks = document.querySelectorAll(".read-more-link");
 
-            readMoreLinks.forEach(function (link) {
-                link.addEventListener("click", function () {
+            readMoreLinks.forEach(function(link) {
+                link.addEventListener("click", function() {
                     const description = this.getAttribute("data-description");
                     alert(description); // You can replace this with code to display the full description in a modal or expand the table row.
                 });
@@ -508,7 +489,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="js/tinymce/js/tinymce/tinymce.min.js"></script>
     <script>
         tinymce.init({
-            selector:'#description'
+            selector: '#description'
         })
     </script>
 
