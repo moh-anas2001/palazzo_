@@ -78,7 +78,7 @@ if ($result->num_rows > 0) {
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex,nofollow">
-    <title>Qplus Admin</title>
+    <title>Palazzo Manager</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="plugins/images/favicon.png">
@@ -430,8 +430,8 @@ if ($result->num_rows > 0) {
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <footer class="footer text-center"> 2020 © Qplus Technical Service LLC - <a
-                    href="https://www.qplus-ts.com">www.qplus-ts.com</a>
+            <footer class="footer text-center"> 2024 © Palazzo General Contracting LLC - <a
+                    href="https://www.palazzouae.com/">www.palazzouae.com</a>
             </footer>
             </footer>
             <!-- ============================================================== -->

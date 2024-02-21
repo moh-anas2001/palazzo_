@@ -247,8 +247,8 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-             <footer class="footer text-center"> 2020 © Qplus Technical Service LLC -  <a
-                    href="www.qplus-ts.com">www.qplus-ts.com</a>
+             <footer class="footer text-center"> 2024 © Palazzo General Contracting LLC -  <a
+                    href="www.palazzouae.com">www.palazzouae.com</a>
             </footer>
             </footer>
             <!-- ============================================================== -->

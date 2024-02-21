@@ -29,7 +29,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="robots" content="noindex,nofollow">
-    <title>Qplus Admin</title>
+    <title>Palazzo Manager</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="plugins/images/favicon.png">
@@ -569,7 +569,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] !== 'Admin') {
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <footer class="footer text-center"> 2020 © Qplus Technical Service LLC - <a href="https://www.qplus-ts.com">www.qplus-ts.com</a>
+            <footer class="footer text-center"> 2024 © Palazzo General Contracting LLC - <a href="https://www.palazzouae.com/">www.palazzouae.com</a>
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

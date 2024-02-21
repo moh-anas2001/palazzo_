@@ -202,61 +202,61 @@ Stack trace:
 [24-Nov-2023 01:48:18 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home/lj2k0lg1i5sx/public_html/admin/index.php on line 2
 [24-Nov-2023 01:48:26 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home/lj2k0lg1i5sx/public_html/admin/index.php on line 2
 [24-Nov-2023 01:48:34 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home/lj2k0lg1i5sx/public_html/admin/index.php on line 2
-[21-Dec-2023 12:13:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php:3
+[21-Dec-2023 12:13:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php:3
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php(3): mysqli_connect('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
-#1 /home4/dacenj4b/www.qplus-ts.com/admin/index.php(5): include('/home4/dacenj4b...')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php(3): mysqli_connect('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#1 /home4/dacenj4b/www.palazzouae.com/admin/index.php(5): include('/home4/dacenj4b...')
 #2 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php on line 3
-[21-Dec-2023 12:14:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php:3
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php on line 3
+[21-Dec-2023 12:14:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php:3
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php(3): mysqli_connect('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
-#1 /home4/dacenj4b/www.qplus-ts.com/admin/index.php(5): include('/home4/dacenj4b...')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php(3): mysqli_connect('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#1 /home4/dacenj4b/www.palazzouae.com/admin/index.php(5): include('/home4/dacenj4b...')
 #2 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php on line 3
-[21-Dec-2023 16:44:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php:3
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php on line 3
+[21-Dec-2023 16:44:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php:3
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php(3): mysqli_connect('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
-#1 /home4/dacenj4b/www.qplus-ts.com/admin/index.php(5): include('/home4/dacenj4b...')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php(3): mysqli_connect('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#1 /home4/dacenj4b/www.palazzouae.com/admin/index.php(5): include('/home4/dacenj4b...')
 #2 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php on line 3
-[25-Dec-2023 00:03:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php:3
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php on line 3
+[25-Dec-2023 00:03:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php:3
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php(3): mysqli_connect('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
-#1 /home4/dacenj4b/www.qplus-ts.com/admin/index.php(5): include('/home4/dacenj4b...')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php(3): mysqli_connect('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#1 /home4/dacenj4b/www.palazzouae.com/admin/index.php(5): include('/home4/dacenj4b...')
 #2 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/includes/database.php on line 3
-[22-Jan-2024 05:44:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/dacenj4b/www.qplus-ts.com/admin/index.php:21) in /home4/dacenj4b/www.qplus-ts.com/admin/index.php on line 58
-[22-Jan-2024 05:50:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/dacenj4b/www.qplus-ts.com/admin/index.php:21) in /home4/dacenj4b/www.qplus-ts.com/admin/index.php on line 58
-[22-Jan-2024 05:50:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/dacenj4b/www.qplus-ts.com/admin/index.php:21) in /home4/dacenj4b/www.qplus-ts.com/admin/index.php on line 58
-[22-Jan-2024 05:51:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/dacenj4b/www.qplus-ts.com/admin/index.php:21) in /home4/dacenj4b/www.qplus-ts.com/admin/index.php on line 58
-[12-Feb-2024 08:14:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php:10
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/includes/database.php on line 3
+[22-Jan-2024 05:44:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/dacenj4b/www.palazzouae.com/admin/index.php:21) in /home4/dacenj4b/www.palazzouae.com/admin/index.php on line 58
+[22-Jan-2024 05:50:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/dacenj4b/www.palazzouae.com/admin/index.php:21) in /home4/dacenj4b/www.palazzouae.com/admin/index.php on line 58
+[22-Jan-2024 05:50:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/dacenj4b/www.palazzouae.com/admin/index.php:21) in /home4/dacenj4b/www.palazzouae.com/admin/index.php on line 58
+[22-Jan-2024 05:51:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/dacenj4b/www.palazzouae.com/admin/index.php:21) in /home4/dacenj4b/www.palazzouae.com/admin/index.php on line 58
+[12-Feb-2024 08:14:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php:10
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
 #1 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php on line 10
-[12-Feb-2024 08:14:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php:10
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php on line 10
+[12-Feb-2024 08:14:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php:10
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
 #1 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php on line 10
-[12-Feb-2024 08:14:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php:10
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php on line 10
+[12-Feb-2024 08:14:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php:10
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
 #1 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php on line 10
-[12-Feb-2024 08:14:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php:10
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php on line 10
+[12-Feb-2024 08:14:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php:10
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
 #1 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php on line 10
-[12-Feb-2024 08:15:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php:10
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php on line 10
+[12-Feb-2024 08:15:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php:10
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
 #1 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php on line 10
-[12-Feb-2024 08:15:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php:10
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php on line 10
+[12-Feb-2024 08:15:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cms'@'localhost' (using password: YES) in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php:10
 Stack trace:
-#0 /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
+#0 /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php(10): mysqli->__construct('localhost', 'cms', Object(SensitiveParameterValue), 'cms')
 #1 {main}
-  thrown in /home4/dacenj4b/www.qplus-ts.com/admin/add_jobs.php on line 10
+  thrown in /home4/dacenj4b/www.palazzouae.com/admin/add_jobs.php on line 10

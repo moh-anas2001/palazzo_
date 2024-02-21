@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="description"
         content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
-    <title>QPlus Admin</title>
+    <title>Palazzo Manager</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="plugins/images/favicon.png">
@@ -513,8 +513,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <footer class="footer text-center"> 2020 © Qplus Technical Service LLC - <a
-                    href="https://www.qplus-ts.com">www.qplus-ts.com</a>
+            <footer class="footer text-center"> 2024 © Palazzo General Contracting LLC - <a
+                    href="https://www.palazzouae.com/">www.palazzouae.com</a>
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
