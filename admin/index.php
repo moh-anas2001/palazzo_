@@ -10,7 +10,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['role'])) {
 
     // Redirect to the appropriate dashboard based on the user's role
     if ($userRole === 'Admin') {
-        header('Location: dashboard.php');
+        header('Location: profile.php');
     } elseif ($userRole === 'Blogger') {
         header('Location: add_blogs.php');
     }
@@ -37,7 +37,7 @@ if (isset($_POST['email'])) {
 
 
             if ($_SESSION['role'] === 'Admin') {
-                header('Location: dashboard.php');
+                header('Location: profile.php');
                 exit(); // It's a good practice to include exit after a header redirect
             } elseif ($_SESSION['role'] === 'Blogger') {
                 header('Location: add_blogs.php'); // Corrected filename here

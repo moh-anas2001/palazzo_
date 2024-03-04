@@ -184,8 +184,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 ?>
                             </a>
                             <div class="dropdown-content">
-                                <a href="dashboard.php">Dashboard</a>
-                                <a href="add_jobs.php">Add Jobs</a>
+                                <a href="add_projects.php">Add Portfolio</a>
                                 <a href="Logout.php">Logout</a>
                             </div>
                         </li>
@@ -218,13 +217,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php" aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu">Profile</span>
+                                <span class="hide-menu">Add Users</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php" aria-expanded="false">
                                 <i class="far fa-lightbulb" aria-hidden="true"></i>
-                                <span class="hide-menu">New Projects</span>
+                                <span class="hide-menu">Add Portfolio</span>
                             </a>
                         </li>
 
@@ -281,7 +280,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Profile page</h4>
+                        <h4 class="page-title">Add Users</h4>
                     </div>
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <div class="d-md-flex">

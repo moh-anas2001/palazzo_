@@ -184,8 +184,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 ?>
                             </a>
                             <div class="dropdown-content">
-                                <a href="dashboard.php">Dashboard</a>
-                                <a href="add_jobs.php">Add Jobs</a>
+                                <a href="profile.php">Add Users</a>
                                 <a href="Logout.php">Logout</a>
                             </div>
                         </li>
@@ -218,13 +217,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php" aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu">Profile</span>
+                                <span class="hide-menu">Add Users</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add_projects.php" aria-expanded="false">
                                 <i class="far fa-lightbulb" aria-hidden="true"></i>
-                                <span class="hide-menu">New Projects</span>
+                                <span class="hide-menu">Add Portfolio</span>
                             </a>
                         </li>
 
@@ -280,7 +279,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Add Projects</h4>
+                        <h4 class="page-title">Add Portfolio</h4>
                     </div>
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <div class="d-md-flex">
@@ -314,12 +313,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     </div>
                                 </div>
                                 <div class="form-group mb-4">
-                                    <label class="col-md-12 p-0">Client Name</label>
-                                    <div class="col-md-12 border-bottom p-0">
-                                        <input type="text" name="client" placeholder="Enter client Name" required class="form-control p-0 border-0">
+                                        <label class="col-sm-12">Work type</label>
+
+                                        <div class="col-sm-12 border-bottom">
+                                            <select name="role" class="form-select shadow-none p-0 border-0 form-control-line">
+                                                <option>Civil Works</option>
+                                                <option>Interior Works</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group mb-4">
+                                <!-- <div class="form-group mb-4">
                                     <label class="col-md-12 p-0">Main Contractor Name</label>
                                     <div class="col-md-12 border-bottom p-0">
                                         <input type="text" name="contractor" placeholder="Enter Main Contractor Name" class="form-control p-0 border-0">
@@ -336,7 +339,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <div class="col-md-12 border-bottom p-0">
                                         <textarea id="description" rows="5" class="form-control p-0 border-0" name="description" placeholder="Enter Project Description"></textarea>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="form-group mb-4">
                                     <label class="col-md-12 p-0">Upload Image</label>
                                     <div class="col-md-12 border-bottom p-0">
